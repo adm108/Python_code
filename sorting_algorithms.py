@@ -66,10 +66,10 @@ def quick_sort(numbers):
 
 example_list = [random.randint(0, 10000) for i in range(0, 10000)]
 
-# t1 = time.process_time()
-# bubble_sort(example_list)
-# t2 = time.process_time()
-# print(f"Time of the bubble sort is: {t2 - t1}")
+t1 = time.process_time()
+bubble_sort(example_list)
+t2 = time.process_time()
+print(f"Time of the bubble sort is: {t2 - t1}")
 #
 # t3 = time.process_time()
 # selection_sort(example_list)
@@ -81,7 +81,7 @@ example_list = [random.randint(0, 10000) for i in range(0, 10000)]
 # t6 = time.process_time()
 # print(f"Time of the insert sort is: {t6 - t5}")
 
-t7 = time.process_time()
-quick_sort(example_list)
-t8 = time.process_time()
-print(f"Time of the quick sort is: {t8 - t7}")
+# t7 = time.process_time()
+# quick_sort(example_list)
+# t8 = time.process_time()
+# print(f"Time of the quick sort is: {t8 - t7}")
