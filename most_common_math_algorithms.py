@@ -101,7 +101,7 @@ def collatz_conjecture_while_loop(number):
     return collatz_result
 
 
-# print(fibonacci(15))
+print(fibonacci(15))
 # print(factorial_recursion(15))
 # print(factorial_while_loop(15))
 # print(factorial_for_loop(15))
