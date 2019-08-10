@@ -1,8 +1,10 @@
+""" Four most popular types of sorting algorithms below! """
+
 import random
 import time
 
 
-# ---------------------------- BUBBLE SORT ----------------------------
+# ------------------------------- BUBBLE SORT --------------------------------
 
 def bubble_sort(lst):
     x = len(lst) - 1
@@ -21,7 +23,7 @@ def bubble_sort(lst):
     return lst
 
 
-# -------------------------- SELECTION SORT --------------------------
+# ----------------------------- SELECTION SORT ------------------------------
 
 def selection_sort(numbers):
     for i in range(len(numbers)):
@@ -33,7 +35,7 @@ def selection_sort(numbers):
     return numbers
 
 
-# ---------------------------- INSERT SORT ----------------------------
+# ------------------------------- INSERT SORT -------------------------------
 
 def insert_sort(numbers):
     x = len(numbers)
@@ -45,7 +47,7 @@ def insert_sort(numbers):
     return numbers
 
 
-# ----------------------------- QUICK SORT -----------------------------
+# -------------------------------- QUICK SORT --------------------------------
 
 def quick_sort(numbers):
     if len(numbers) <= 1:
@@ -64,20 +66,20 @@ def quick_sort(numbers):
 
 example_list = [random.randint(0, 10000) for i in range(0, 10000)]
 
-t1 = time.process_time()
-bubble_sort(example_list)
-t2 = time.process_time()
-print(f"Time of the bubble sort is: {t2 - t1}")
-
-t3 = time.process_time()
-selection_sort(example_list)
-t4 = time.process_time()
-print(f"Time of the selection sort is: {t4 - t3}")
-
-t5 = time.process_time()
-insert_sort(example_list)
-t6 = time.process_time()
-print(f"Time of the insert sort is: {t6 - t5}")
+# t1 = time.process_time()
+# bubble_sort(example_list)
+# t2 = time.process_time()
+# print(f"Time of the bubble sort is: {t2 - t1}")
+#
+# t3 = time.process_time()
+# selection_sort(example_list)
+# t4 = time.process_time()
+# print(f"Time of the selection sort is: {t4 - t3}")
+#
+# t5 = time.process_time()
+# insert_sort(example_list)
+# t6 = time.process_time()
+# print(f"Time of the insert sort is: {t6 - t5}")
 
 t7 = time.process_time()
 quick_sort(example_list)
