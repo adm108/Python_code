@@ -155,7 +155,7 @@ if __name__ == "__main__":
             print("\nWrong value. Try again.\n")
             continue
 
-        shall_continue = input("\nDo you want to continue [y / n]: ")
+        shall_continue = input("\nDo you want to continue [y / n] : ")
         print()
         if shall_continue != "y":
             break
