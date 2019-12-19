@@ -1,2 +1,2 @@
-# Python_code
+# python_code
 trying to improve my coding skills !
