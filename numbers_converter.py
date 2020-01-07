@@ -1,5 +1,4 @@
-""" Would you like to see a binary, octal, hexadecimal and roman number
-versions of your arabic (decimal) number? Check this out! """
+""" Numbers converter """
 
 
 def arabic_to_rom(number):

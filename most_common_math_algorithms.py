@@ -105,7 +105,7 @@ def collatz_conjecture_while_loop(number):
 # print(factorial_recursion(15))
 # print(factorial_while_loop(15))
 # print(factorial_for_loop(15))
-print(greatest_common_divisor_for_loop(58654, 214))
+print(greatest_common_divisor_for_loop(15, 45))
 # print(greatest_common_divisor_while_loop(15, 65))
 # print(collatz_conjecture_recursion(75))
 # print(collatz_conjecture_while_loop(75))
