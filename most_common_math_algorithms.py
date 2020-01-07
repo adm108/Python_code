@@ -1,4 +1,4 @@
-"""  Most common math algorithms below!  """
+""" Most common math algorithms below! """
 
 
 # ---------------------------- FIBONACCI SEQUENCE ----------------------------
