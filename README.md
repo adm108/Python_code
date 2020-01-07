@@ -16,7 +16,7 @@ Would you like to see a binary, octal, hexadecimal and roman number versions of 
 
 3. PESEL
 
-Program will tell you your date of birth (with day of the week), sex and correctness of your PESEL number. There is a special algotihms for checking the correctness of your PESEL number. There are cases where someone has an incorrect PESEL number, for example an incorrect check digit (last digit in your PESEL number). Perhaps after checkin you will have to go to the citi hall to change your PESEL number. I hope it won't be necessary. :)
+Program will tell you your date of birth (with day of the week), sex and correctness of your PESEL number. There is a special algotihm for checking the correctness of your PESEL number. There are cases where someone has an incorrect PESEL number, for example an incorrect check digit (last digit in your PESEL number). Perhaps after checkin you will have to go to the citi hall to change your PESEL number. I hope it won't be necessary. :)
 
 
 4. Sorting algotithms
