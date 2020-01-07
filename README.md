@@ -4,6 +4,7 @@ Trying to improve my coding skills by throwing small pieces of code written in P
 
 
 1. Most common math algorithms
+
 Examples of 4 popular mathematical algotihms: fibonacci sequence, factorial (while loop, for loop and recursion), greatest common divisor (while loop and for loop), collatz conjecture (while loop and recursion).
 
 2. Numbers converter
